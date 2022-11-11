@@ -1,0 +1,54 @@
+label img {
+    width: 17vw;
+    height: 25vh;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50vw;
+    height: 80vh;
+    box-sizing: border-box;
+    column-gap: 5vh;
+}
+
+#first-col-5_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#second-col-5_2 {
+    align-self: center;
+}
+
+#images input:checked ~ label, label:focus {
+    outline: 7px solid #cb9e61;
+}
+
+#images label {
+    width: 17vw;
+    height: fit-content;
+    display: block;
+}
+
+#images img+div {
+    width: border-box;
+    height: 3.9vh;
+    background-color: #8c8c8c;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 4vh;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#images input[type='radio'] {
+    display: none;
+}
+
+

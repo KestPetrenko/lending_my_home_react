@@ -1,0 +1,19 @@
+
+.img1{
+    width: 100%;
+    box-shadow: -8px 8px 25px black;
+}
+
+.img2 {
+    position: relative;
+    top: -100px;
+    margin: auto;
+    padding-left: 20%;
+    width: 50%;
+    transition: 2.2s;
+    height: 23vw;
+}
+
+.img2:hover {
+    transform: scale(1.3);
+}

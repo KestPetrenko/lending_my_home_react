@@ -1,0 +1,9 @@
+.section7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/image.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

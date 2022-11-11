@@ -1,0 +1,18 @@
+#aside img[alt='girl'] {
+    width: 53.681vw;
+    height: 76vh;
+}
+
+#aside {
+    margin-left: 6.250vw;
+    position: relative;
+}
+
+#aside img[alt='green'] {
+    position: absolute;
+    width: 29.097vw;
+    height: 41vh;
+    left: 35.417vw;
+    top: 36.5vh;
+}
+
