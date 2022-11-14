@@ -1,0 +1,96 @@
+#article-4 {
+    width: 34.722vw;
+}
+
+#article-4 div:nth-child(1) {
+    font-size: 2rem;
+    color: #cb9e61;
+    font-family: Baskerville, sans-serif;
+    text-align: right;
+    margin: 30vh 0 2vh 0;
+}
+
+#second {
+    font-family: Baskerville, sans-serif;
+    text-align: right;
+    font-size: 2rem;
+    color: #808183;
+    margin-bottom: 4vh;
+}
+
+#sign-up-4 input {
+    box-sizing: border-box;
+    width: 32.569vw;
+    height: 4vh;
+    border: 2px solid #8c8c8c;
+    margin-bottom: 1vh;
+    font-size: 1.2rem;
+    animation: myAnim1 2s ease 0s infinite normal forwards;
+}
+@keyframes myAnim1 {
+    0% {
+        border: 2px solid #cb9e61;
+    }
+
+    20% {
+
+        border: 1px solid #8c8c8c;
+    }
+
+    40% {
+        border: 2px solid #cb9e61;
+    }
+
+    60% {
+
+        border: 1px solid #8c8c8c;
+    }
+
+    80% {
+        border: 2px solid #cb9e61;
+    }
+
+    100% {
+
+        border: 1px solid #8c8c8c;
+    }
+}
+
+#sign-up-4 {
+    text-align: right;
+}
+
+#sign-div:active {
+    outline: 3px solid #907346;
+    background-color: #ceae80;
+}
+
+#sign-div:hover {
+    outline: 3px solid #907346;
+    cursor: pointer;
+}
+
+#sign-div {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 3.6vh;
+    text-transform: uppercase;
+    color: white;
+    font-family: Baskerville, sans-serif;
+    background-color: #cb9e61;
+    width: 32.569vw;
+    height: 3.7vh;
+    margin-bottom: 2vh;
+}
+
+#article-4 div:nth-child(4) {
+    color: #808183;
+    width: 34.722vw;
+    height: 7.9vh;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: Barlow, sans-serif;
+    text-align: right;
+}

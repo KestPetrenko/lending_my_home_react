@@ -1,0 +1,10 @@
+#gallery-txt {
+    width: 55vw;
+    line-height: 2vh;
+    font-size: 0.8rem;
+    color: #8c8c8c;
+    font-weight: 500;
+    font-family: Barlow, sans-serif;
+    text-align: center;
+    margin: 3vh auto 0 auto;
+}

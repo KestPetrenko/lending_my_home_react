@@ -1,0 +1,11 @@
+#sec-4 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    column-gap: 4.514vw;
+    padding-top: 4vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 12.5vw;
+    height: 100vh;
+}

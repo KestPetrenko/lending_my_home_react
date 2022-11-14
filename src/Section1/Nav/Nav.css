@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4vh;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+a, span {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.8vh;
+    color: #929496;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+}
+
+a:nth-last-of-type(-n+3), span{
+    font-weight: bold;
+}
+
+nav input {
+    border: 1px solid #8c8c8c;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    margin-top: -1vh;
+    animation: myAnim1 6s ease 9s infinite normal forwards;
+}
