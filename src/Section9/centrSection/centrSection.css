@@ -1,0 +1,13 @@
+.center_Section {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.center_Section h1{
+    color: #cb9e61;
+    text-align: center;
+    font-size: 30px;
+    margin: 2px;
+}

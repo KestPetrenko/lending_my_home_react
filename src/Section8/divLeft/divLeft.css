@@ -1,0 +1,7 @@
+
+.img5{
+    background-image: url("../img/image.png");
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}

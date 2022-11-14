@@ -1,0 +1,25 @@
+form{
+    width: 35%;
+    backdrop-filter: blur(7px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#sign-div1 {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Baskerville, sans-serif;
+    background-color: #cb9e61;
+    height: 3.7vh;
+    margin-bottom: 2vh;
+}
+
+#sign-div1:hover{
+    cursor: pointer;
+    border: white;
+}

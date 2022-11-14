@@ -1,0 +1,33 @@
+#click {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+div#minus-btn {
+    font-weight: bold;
+}
+
+div#plus-btn, div#minus-btn {
+    width: 3vw;
+    height: 3vh;
+    font-size: 1.1rem;
+    line-height: 3vh;
+    text-align: center;
+    background-color: #f5d9a4;
+    border-radius: 20px;
+}
+
+div#plus-btn:active, div#minus-btn:active {
+    background-color: #59432c;
+    color: #f5d9a4;
+}
+
+#result {
+    font-size: 1.1rem;
+}
+
+/*.btn-cont {*/
+/*    width: 10vw;*/
+/*    text-align: center;*/
+/*}*/

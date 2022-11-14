@@ -1,0 +1,46 @@
+#colors div:nth-child(1) {
+    background-color: #839c61;
+}
+
+#colors div:nth-child(2) {
+    background-color: #d8c2a7;
+}
+
+#colors div:nth-child(3) {
+    background-color: #af9279;
+}
+
+#colors div:nth-child(4) {
+    background-color: #e5b96e;
+}
+
+#colors div:nth-child(5) {
+    background-color: #bebfc0;
+}
+
+#colors input:checked ~ label, label:focus {
+    outline: 5px solid #59432c;
+}
+
+#colors input[type='radio'] {
+    display: none;
+}
+
+#colors label {
+    display: block;
+}
+
+#colors div {
+    width: 10vw;
+    text-align: center;
+    height: 4vh;
+    line-height: 4vh;
+    font-size: 1.1rem;
+}
+
+#colors {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
